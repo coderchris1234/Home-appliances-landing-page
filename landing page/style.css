@@ -1,14 +1,10 @@
 
-*{
+body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    /* background-image: url(/images/home_background.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed; */
+
 }
 
 
@@ -34,6 +30,9 @@
     border-radius: 10px;
     transition: 0.5s;
 }
+.active{
+    color: #fff;
+}
 
 .navbar a:hover{
     background-color: burlywood;
@@ -46,6 +45,7 @@
     color: burlywood;
     cursor: pointer;
 }
+
 .section-top{
     display: flex;
 }
@@ -58,4 +58,10 @@ li{
 li a{
     text-decoration: none;
 }
+
+.wide{
+    margin-top: 800px;
+}
+
+
 
